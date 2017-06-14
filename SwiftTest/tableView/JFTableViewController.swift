@@ -87,7 +87,7 @@ class JFTableViewController: JFBaseViewController,UITableViewDelegate,UITableVie
             tableView.deleteRows(at: [indexPath], with: UITableViewRowAnimation.fade)
         }
     }
-    // MARK: - 左划选项按钮，与左划删除
+    // MARK: - 左划选项按钮，与左划删除冲突
     /*
      func tableView(_ tableView: UITableView, editActionsForRowAt indexPath: IndexPath) -> [UITableViewRowAction]? {
      
@@ -115,6 +115,7 @@ class JFTableViewController: JFBaseViewController,UITableViewDelegate,UITableVie
      return [share,chat,like]
      }
     */
+
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
