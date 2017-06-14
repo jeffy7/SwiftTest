@@ -23,6 +23,11 @@ class JFTableViewController: JFBaseViewController,UITableViewDelegate,UITableVie
     ]
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        let editButtonItem = UIBarButtonItem.init(barButtonSystemItem: UIBarButtonSystemItem.edit, target: self, action:#selector(JFTableViewController.pushNextPage))
+        self.navigationItem.rightBarButtonItem = editButtonItem
+        
+        
         let tableView = UITableView.init(frame: self.view.frame, style: UITableViewStyle.grouped)
         tableView.delegate = self
         tableView.dataSource = self
@@ -32,6 +37,9 @@ class JFTableViewController: JFBaseViewController,UITableViewDelegate,UITableVie
 
 
         // Do any additional setup after loading the view.
+    }
+    func pushNextPage()  {
+        self.navigationController?.pushViewController(JFTableSortViewController(), animated: true)
     }
     // MARK: - UITableViewDelagate && UITableViewDataSource
     func numberOfSections(in tableView: UITableView) -> Int {
