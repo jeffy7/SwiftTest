@@ -14,6 +14,8 @@
 		17B00A4A1EF0E5DB00CB0EA0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17B00A481EF0E5DB00CB0EA0 /* LaunchScreen.storyboard */; };
 		17B00A551EF0E5DB00CB0EA0 /* SwiftTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B00A541EF0E5DB00CB0EA0 /* SwiftTestTests.swift */; };
 		17B00A601EF0E5DB00CB0EA0 /* SwiftTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B00A5F1EF0E5DB00CB0EA0 /* SwiftTestUITests.swift */; };
+		17B00A701EF113B400CB0EA0 /* JFBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B00A6F1EF113B400CB0EA0 /* JFBaseViewController.swift */; };
+		17B00A731EF113FB00CB0EA0 /* JFTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B00A721EF113FB00CB0EA0 /* JFTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		17B00A5B1EF0E5DB00CB0EA0 /* SwiftTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		17B00A5F1EF0E5DB00CB0EA0 /* SwiftTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftTestUITests.swift; sourceTree = "<group>"; };
 		17B00A611EF0E5DB00CB0EA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17B00A6F1EF113B400CB0EA0 /* JFBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JFBaseViewController.swift; sourceTree = "<group>"; };
+		17B00A721EF113FB00CB0EA0 /* JFTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JFTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +101,10 @@
 		17B00A3E1EF0E5DB00CB0EA0 /* SwiftTest */ = {
 			isa = PBXGroup;
 			children = (
+				17B00A711EF113CB00CB0EA0 /* tableView */,
 				17B00A3F1EF0E5DB00CB0EA0 /* AppDelegate.swift */,
 				17B00A411EF0E5DB00CB0EA0 /* ViewController.swift */,
+				17B00A6F1EF113B400CB0EA0 /* JFBaseViewController.swift */,
 				17B00A431EF0E5DB00CB0EA0 /* Main.storyboard */,
 				17B00A461EF0E5DB00CB0EA0 /* Assets.xcassets */,
 				17B00A481EF0E5DB00CB0EA0 /* LaunchScreen.storyboard */,
@@ -123,6 +129,14 @@
 				17B00A611EF0E5DB00CB0EA0 /* Info.plist */,
 			);
 			path = SwiftTestUITests;
+			sourceTree = "<group>";
+		};
+		17B00A711EF113CB00CB0EA0 /* tableView */ = {
+			isa = PBXGroup;
+			children = (
+				17B00A721EF113FB00CB0EA0 /* JFTableViewController.swift */,
+			);
+			path = tableView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,7 +277,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				17B00A421EF0E5DB00CB0EA0 /* ViewController.swift in Sources */,
+				17B00A731EF113FB00CB0EA0 /* JFTableViewController.swift in Sources */,
 				17B00A401EF0E5DB00CB0EA0 /* AppDelegate.swift in Sources */,
+				17B00A701EF113B400CB0EA0 /* JFBaseViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
