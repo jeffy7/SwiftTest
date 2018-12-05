@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1783C03F21B7C2C5005210C3 /* JFTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1783C03E21B7C2C5005210C3 /* JFTestViewController.swift */; };
 		17B00A401EF0E5DB00CB0EA0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B00A3F1EF0E5DB00CB0EA0 /* AppDelegate.swift */; };
 		17B00A421EF0E5DB00CB0EA0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B00A411EF0E5DB00CB0EA0 /* ViewController.swift */; };
 		17B00A451EF0E5DB00CB0EA0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17B00A431EF0E5DB00CB0EA0 /* Main.storyboard */; };
@@ -17,6 +18,7 @@
 		17B00A701EF113B400CB0EA0 /* JFBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B00A6F1EF113B400CB0EA0 /* JFBaseViewController.swift */; };
 		17B00A731EF113FB00CB0EA0 /* JFTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B00A721EF113FB00CB0EA0 /* JFTableViewController.swift */; };
 		17B00A751EF1499400CB0EA0 /* JFTableSortViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B00A741EF1499400CB0EA0 /* JFTableSortViewController.swift */; };
+		17B00A841EF2278D00CB0EA0 /* JFFontsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B00A831EF2278D00CB0EA0 /* JFFontsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1783C03E21B7C2C5005210C3 /* JFTestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JFTestViewController.swift; sourceTree = "<group>"; };
 		17B00A3C1EF0E5DB00CB0EA0 /* SwiftTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		17B00A3F1EF0E5DB00CB0EA0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		17B00A411EF0E5DB00CB0EA0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -53,6 +56,7 @@
 		17B00A6F1EF113B400CB0EA0 /* JFBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JFBaseViewController.swift; sourceTree = "<group>"; };
 		17B00A721EF113FB00CB0EA0 /* JFTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JFTableViewController.swift; sourceTree = "<group>"; };
 		17B00A741EF1499400CB0EA0 /* JFTableSortViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JFTableSortViewController.swift; sourceTree = "<group>"; };
+		17B00A831EF2278D00CB0EA0 /* JFFontsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JFFontsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +84,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1783C03D21B7C28B005210C3 /* TestFolder */ = {
+			isa = PBXGroup;
+			children = (
+				1783C03E21B7C2C5005210C3 /* JFTestViewController.swift */,
+			);
+			path = TestFolder;
+			sourceTree = "<group>";
+		};
 		17B00A331EF0E5DB00CB0EA0 = {
 			isa = PBXGroup;
 			children = (
@@ -103,6 +115,8 @@
 		17B00A3E1EF0E5DB00CB0EA0 /* SwiftTest */ = {
 			isa = PBXGroup;
 			children = (
+				1783C03D21B7C28B005210C3 /* TestFolder */,
+				17B00A821EF2277500CB0EA0 /* FontFamily */,
 				17B00A711EF113CB00CB0EA0 /* tableView */,
 				17B00A3F1EF0E5DB00CB0EA0 /* AppDelegate.swift */,
 				17B00A411EF0E5DB00CB0EA0 /* ViewController.swift */,
@@ -140,6 +154,14 @@
 				17B00A741EF1499400CB0EA0 /* JFTableSortViewController.swift */,
 			);
 			path = tableView;
+			sourceTree = "<group>";
+		};
+		17B00A821EF2277500CB0EA0 /* FontFamily */ = {
+			isa = PBXGroup;
+			children = (
+				17B00A831EF2278D00CB0EA0 /* JFFontsViewController.swift */,
+			);
+			path = FontFamily;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -204,6 +226,7 @@
 		17B00A341EF0E5DB00CB0EA0 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = JF;
 				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = je_ffy;
@@ -281,7 +304,9 @@
 			files = (
 				17B00A421EF0E5DB00CB0EA0 /* ViewController.swift in Sources */,
 				17B00A731EF113FB00CB0EA0 /* JFTableViewController.swift in Sources */,
+				1783C03F21B7C2C5005210C3 /* JFTestViewController.swift in Sources */,
 				17B00A401EF0E5DB00CB0EA0 /* AppDelegate.swift in Sources */,
+				17B00A841EF2278D00CB0EA0 /* JFFontsViewController.swift in Sources */,
 				17B00A701EF113B400CB0EA0 /* JFBaseViewController.swift in Sources */,
 				17B00A751EF1499400CB0EA0 /* JFTableSortViewController.swift in Sources */,
 			);
@@ -536,6 +561,7 @@
 				17B00A661EF0E5DB00CB0EA0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		17B00A671EF0E5DB00CB0EA0 /* Build configuration list for PBXNativeTarget "SwiftTestTests" */ = {
 			isa = XCConfigurationList;
@@ -544,6 +570,7 @@
 				17B00A691EF0E5DB00CB0EA0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		17B00A6A1EF0E5DB00CB0EA0 /* Build configuration list for PBXNativeTarget "SwiftTestUITests" */ = {
 			isa = XCConfigurationList;
@@ -552,6 +579,7 @@
 				17B00A6C1EF0E5DB00CB0EA0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

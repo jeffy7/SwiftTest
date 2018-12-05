@@ -10,7 +10,9 @@ import UIKit
 
 class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource {
 
-    let dataArray = [(titleName: "TableView", controllerName: "JFTableViewController")]
+    let dataArray = [(titleName: "TableView", controllerName: "JFTableViewController"),
+                     (titleName: "Fonts", controllerName: "JFFontsViewController"),
+                     (titleName: "Test", controllerName: "JFTestViewController")]
     
     override func viewDidLoad() {
         super.viewDidLoad()
