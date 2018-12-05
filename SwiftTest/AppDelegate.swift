@@ -17,7 +17,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
-        window?.rootViewController = UINavigationController.init(rootViewController: ViewController())
+//        window?.rootViewController = UINavigationController.init(rootViewController: ViewController())
+        window?.rootViewController = JFTabBarController.init()
         return true
     }
 

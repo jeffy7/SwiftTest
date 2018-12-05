@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		1783C03F21B7C2C5005210C3 /* JFTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1783C03E21B7C2C5005210C3 /* JFTestViewController.swift */; };
+		1783C04C21B7C6DD005210C3 /* JFTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1783C04B21B7C6DD005210C3 /* JFTabBarController.swift */; };
+		1783C04E21B7C939005210C3 /* JFUINavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1783C04D21B7C939005210C3 /* JFUINavigationController.swift */; };
 		17B00A401EF0E5DB00CB0EA0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B00A3F1EF0E5DB00CB0EA0 /* AppDelegate.swift */; };
 		17B00A421EF0E5DB00CB0EA0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B00A411EF0E5DB00CB0EA0 /* ViewController.swift */; };
 		17B00A451EF0E5DB00CB0EA0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17B00A431EF0E5DB00CB0EA0 /* Main.storyboard */; };
@@ -40,6 +42,8 @@
 
 /* Begin PBXFileReference section */
 		1783C03E21B7C2C5005210C3 /* JFTestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JFTestViewController.swift; sourceTree = "<group>"; };
+		1783C04B21B7C6DD005210C3 /* JFTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JFTabBarController.swift; sourceTree = "<group>"; };
+		1783C04D21B7C939005210C3 /* JFUINavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JFUINavigationController.swift; sourceTree = "<group>"; };
 		17B00A3C1EF0E5DB00CB0EA0 /* SwiftTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		17B00A3F1EF0E5DB00CB0EA0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		17B00A411EF0E5DB00CB0EA0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -120,7 +124,9 @@
 				17B00A711EF113CB00CB0EA0 /* tableView */,
 				17B00A3F1EF0E5DB00CB0EA0 /* AppDelegate.swift */,
 				17B00A411EF0E5DB00CB0EA0 /* ViewController.swift */,
+				1783C04B21B7C6DD005210C3 /* JFTabBarController.swift */,
 				17B00A6F1EF113B400CB0EA0 /* JFBaseViewController.swift */,
+				1783C04D21B7C939005210C3 /* JFUINavigationController.swift */,
 				17B00A431EF0E5DB00CB0EA0 /* Main.storyboard */,
 				17B00A461EF0E5DB00CB0EA0 /* Assets.xcassets */,
 				17B00A481EF0E5DB00CB0EA0 /* LaunchScreen.storyboard */,
@@ -305,6 +311,8 @@
 				17B00A421EF0E5DB00CB0EA0 /* ViewController.swift in Sources */,
 				17B00A731EF113FB00CB0EA0 /* JFTableViewController.swift in Sources */,
 				1783C03F21B7C2C5005210C3 /* JFTestViewController.swift in Sources */,
+				1783C04E21B7C939005210C3 /* JFUINavigationController.swift in Sources */,
+				1783C04C21B7C6DD005210C3 /* JFTabBarController.swift in Sources */,
 				17B00A401EF0E5DB00CB0EA0 /* AppDelegate.swift in Sources */,
 				17B00A841EF2278D00CB0EA0 /* JFFontsViewController.swift in Sources */,
 				17B00A701EF113B400CB0EA0 /* JFBaseViewController.swift in Sources */,
@@ -462,12 +470,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = JKV7V4656F;
 				INFOPLIST_FILE = SwiftTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ShangPin.SwiftTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -475,12 +485,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = JKV7V4656F;
 				INFOPLIST_FILE = SwiftTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ShangPin.SwiftTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
